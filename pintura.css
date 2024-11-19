@@ -1,0 +1,92 @@
+body{
+    background-color: #f6fdfd;
+    margin-left: 350px;
+    width: 1200px;
+    height: 2000px;
+    display: block;
+    border: solid, 2px, #bcf5fb;
+    box-shadow: 5px 5px 10px #373939;
+    align-items: center;
+
+}
+
+*{
+    font-family: "Host Grotesk";
+}
+
+header{ 
+    font-size: 20px; 
+    width: 1136px;
+    height: 50px;
+    display: inline-block;
+    background-color:#D9FCFE;
+    padding: 35px 30px 20px 30px;
+    text-align: center;
+    word-spacing: 80px;
+    margin-bottom: 28px;
+    border : 3px outset, #B4F5FE;
+    color: #155190;
+    box-shadow: 5px 5px 10px;
+
+
+}
+  
+button{
+    font-size: 20px;
+    background-color: #8EE9FD;
+    border: none;
+    cursor: pointer;
+    width: 250px;
+    height: 65px;
+    margin-top: 15px;
+    border:2px outset white;;
+    color:#0C3A77;
+    box-shadow: 5px 5px 10px;
+}
+.img-one{
+    width: 800px;
+    height: 500px;
+    margin-top: 30px;
+    margin-left: 190px;
+    margin-bottom: 20px;
+}
+.linha1{
+    cursor: pointer;
+}
+section{
+    color: #2172B3;
+    width: 1100px;
+    height: 500px;
+    display: inline-flex;
+    margin-left: 40px;
+    margin-right: 20px;
+    gap: 30px;
+    text-align: center;
+    font-size: 20px;
+    display: flex;
+}
+h1{
+    text-shadow: 1px 1px ;
+
+}
+p{
+    opacity: 0.2px;
+    font-size: 13px;
+}
+@keyframes shadow-pulse {
+    0% {
+      text-shadow: 0 0 10px #c7e5f2;
+    }
+    100% {
+      text-shadow: 0 0 10px #0a4d74, 0 0 10px #afdbf2;
+    }
+  }
+  
+  h1 {
+    animation: shadow-pulse 0.5s infinite alternate;
+  }
+
+  
+.linha1:hover{
+    opacity: 0.5;
+}
